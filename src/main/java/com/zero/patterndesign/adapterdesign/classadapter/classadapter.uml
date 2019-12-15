@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">com.zero.patterndesign.adapterdesign.classadapter.Print</node>
+    <node x="164.0" y="0.0">com.zero.patterndesign.adapterdesign.classadapter.Banner</node>
+    <node x="87.75" y="124.0">com.zero.patterndesign.adapterdesign.classadapter.PrintBanner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zero.patterndesign.adapterdesign.classadapter.PrintBanner" target="com.zero.patterndesign.adapterdesign.classadapter.Banner">
+      <point x="36.0" y="-37.0" />
+      <point x="195.75" y="99.0" />
+      <point x="247.5" y="99.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.zero.patterndesign.adapterdesign.classadapter.PrintBanner" target="com.zero.patterndesign.adapterdesign.classadapter.Print">
+      <point x="-36.0" y="-37.0" />
+      <point x="123.75" y="99.0" />
+      <point x="72.0" y="99.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="206.5" y="175.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
