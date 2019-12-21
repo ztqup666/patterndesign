@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">com.zero.patterndesign.prototype_design.framework.Product</node>
+    <node x="0.0" y="243.0">com.zero.patterndesign.prototype_design.framework.Manager</node>
+    <node x="0.0" y="124.0">com.zero.patterndesign.prototype_design.MessageBox</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zero.patterndesign.prototype_design.MessageBox" target="com.zero.patterndesign.prototype_design.framework.Product">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="233.5" y="175.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

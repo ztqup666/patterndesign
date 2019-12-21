@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="129.0" y="101.5">com.zero.patterndesign.factory_adapter.framework.Factory</node>
+    <node x="0.0" y="101.0">com.zero.patterndesign.factory_adapter.idcard.IDCard</node>
+    <node x="56.375" y="249.0">com.zero.patterndesign.factory_adapter.idcard.IDCardFactory</node>
+    <node x="208.0" y="0.0">com.zero.patterndesign.factory_adapter.framework.Product</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zero.patterndesign.factory_adapter.idcard.IDCardFactory" target="com.zero.patterndesign.factory_adapter.framework.Factory">
+      <point x="31.875" y="-49.0" />
+      <point x="215.75" y="229.0" />
+      <point x="256.5" y="229.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="com.zero.patterndesign.factory_adapter.idcard.IDCardFactory" target="com.zero.patterndesign.factory_adapter.idcard.IDCard">
+      <point x="-95.625" y="-49.0" />
+      <point x="88.25" y="229.0" />
+      <point x="27.25" y="229.0" />
+      <point x="-27.25" y="49.0" />
+    </edge>
+    <edge source="com.zero.patterndesign.factory_adapter.framework.Factory" target="com.zero.patterndesign.factory_adapter.framework.Product">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.zero.patterndesign.factory_adapter.idcard.IDCardFactory" target="com.zero.patterndesign.factory_adapter.framework.Product">
+      <point x="95.625" y="-49.0" />
+      <point x="279.5" y="229.0" />
+      <point x="394.5" y="229.0" />
+      <point x="394.5" y="76.0" />
+      <point x="288.83333333333337" y="76.0" />
+      <point x="32.33333333333337" y="25.5" />
+    </edge>
+    <edge source="com.zero.patterndesign.factory_adapter.idcard.IDCard" target="com.zero.patterndesign.factory_adapter.framework.Product">
+      <point x="0.0" y="-49.0" />
+      <point x="54.5" y="76.0" />
+      <point x="224.16666666666669" y="76.0" />
+      <point x="-32.333333333333314" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="234.0" y="172.0" />
+  <SelectedNodes>
+    <node>com.zero.patterndesign.factory_adapter.idcard.IDCard</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
