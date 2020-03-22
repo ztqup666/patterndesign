@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="237.0" y="194.0">com.zero.patterndesign.bridgedesign.CountDisplay</node>
+    <node x="31.0" y="0.0">com.zero.patterndesign.bridgedesign.DisplayImpl</node>
+    <node x="0.0" y="147.0">com.zero.patterndesign.bridgedesign.StringDisplayImpl</node>
+    <node x="254.5" y="0.0">com.zero.patterndesign.bridgedesign.Display</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zero.patterndesign.bridgedesign.StringDisplayImpl" target="com.zero.patterndesign.bridgedesign.DisplayImpl">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="com.zero.patterndesign.bridgedesign.CountDisplay" target="com.zero.patterndesign.bridgedesign.Display">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="213.5" y="91.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
