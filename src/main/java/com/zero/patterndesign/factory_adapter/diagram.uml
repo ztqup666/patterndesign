@@ -16,24 +16,6 @@
       <point x="256.5" y="229.0" />
       <point x="0.0" y="48.5" />
     </edge>
-    <edge source="com.zero.patterndesign.factory_adapter.idcard.IDCardFactory" target="com.zero.patterndesign.factory_adapter.idcard.IDCard">
-      <point x="-95.625" y="-49.0" />
-      <point x="88.25" y="229.0" />
-      <point x="27.25" y="229.0" />
-      <point x="-27.25" y="49.0" />
-    </edge>
-    <edge source="com.zero.patterndesign.factory_adapter.framework.Factory" target="com.zero.patterndesign.factory_adapter.framework.Product">
-      <point x="0.0" y="-48.5" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="com.zero.patterndesign.factory_adapter.idcard.IDCardFactory" target="com.zero.patterndesign.factory_adapter.framework.Product">
-      <point x="95.625" y="-49.0" />
-      <point x="279.5" y="229.0" />
-      <point x="394.5" y="229.0" />
-      <point x="394.5" y="76.0" />
-      <point x="288.83333333333337" y="76.0" />
-      <point x="32.33333333333337" y="25.5" />
-    </edge>
     <edge source="com.zero.patterndesign.factory_adapter.idcard.IDCard" target="com.zero.patterndesign.factory_adapter.framework.Product">
       <point x="0.0" y="-49.0" />
       <point x="54.5" y="76.0" />

@@ -26,6 +26,7 @@ public class BookShelf implements Aggregate {
         return books.size();
     }
 
+    @Override
     public Iterator iterator() {
         return new BookSelfIterator(this);
     }
